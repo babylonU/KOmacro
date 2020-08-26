@@ -1,4 +1,4 @@
-#include "stdafx.h" // i am writing on VİsualStudio.For in. Maybe not.
+#include "stdafx.h"
 #include <iostream>
 #include <windows.h>
 #include <conio.h>
@@ -101,7 +101,7 @@ void LastCheck() {
 	Bitir();
 }
 int main() {
-	MAİN:
+	MAIN:
 	setlocale(LC_ALL, "Turkish");
 	Sleep(5000);
 	cout << "Başlamak için SHİFT tuşuna basmanız gerekmektedir.";
@@ -110,7 +110,7 @@ int main() {
 		LastCheck();
 	}
 	else {
-		goto MAİN;
+		goto MAIN;
 	}
 	return 0;
 }
